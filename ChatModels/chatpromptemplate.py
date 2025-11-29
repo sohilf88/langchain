@@ -18,4 +18,3 @@ formatted_prompt = chatTemplate.format_messages(domain="technology", topic="quan
 
 response=model.invoke(formatted_prompt)
 
-print(chatTemplate)
